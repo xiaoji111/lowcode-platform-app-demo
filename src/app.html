@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		%sveltekit.head%
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+	<script>
+		(function (e, d) {
+			function f() {
+				var b = e.documentElement,
+					c = e.body.clientWidth || e.documentElement.clientWidth;
+				a = c ? (Math.min(640, c) / 720) * 100 : 50;
+				a = a.toFixed(2);
+				b.style.fontSize = a + 'px';
+				c = parseFloat(window.getComputedStyle(b).fontSize);
+				parseInt(a) !== parseInt(c) && (b.style.fontSize = (a * a) / c + 'px');
+			}
+			var g = 'orientationchange' in d ? 'orientationchange' : 'resize',
+				a;
+			f();
+			d.addEventListener(g, f, !1);
+			d.rem2px = function (b) {
+				return b * a;
+			};
+			d.px2rem = function (b) {
+				return b / a;
+			};
+		})(document, window);
+	</script>
+</html>

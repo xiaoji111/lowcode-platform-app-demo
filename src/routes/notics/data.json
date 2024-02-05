@@ -1,0 +1,44 @@
+{
+	"pageData": [
+		{
+			"id": "button",
+			"chosen": false,
+			"selected": false,
+			"uuid": "0d74aadb-1635-41d6-be10-70620f13b73c",
+			"config": {
+				"backgroundColor": "rgba(248,231,28,1)",
+				"fontColor": "rgba(250,250,250,1)",
+				"buttonText": "Next",
+				"link": "https://www.baidu.com"
+			}
+		},
+		{
+			"id": "image",
+			"chosen": false,
+			"selected": false,
+			"uuid": "11918bfb-24ea-4b72-b9c8-ced86fc968d9",
+			"config": {
+				"url": "https://sit-marketing-img.bankneo.co.id/news/img/TaiQRHrHrKuSJ3PDmX2ohtmAfXwMXpQ4LUmZSiN-atY.png"
+			}
+		},
+		{
+			"id": "image",
+			"chosen": false,
+			"selected": false,
+			"uuid": "a3348b47-cd4d-4d3c-a868-eaf1330c3e60",
+			"config": {
+				"url": "https://sit-marketing-img.bankneo.co.id/news/img/m_dSK6IxEGpYbefHRSF7iC9RhtIzOMg_zZu1HqlW4_U.png"
+			}
+		},
+		{
+			"id": "image",
+			"chosen": false,
+			"selected": false,
+			"uuid": "8c3976bc-5f3d-4527-8843-a252cc4aa31d",
+			"config": {
+				"url": "https://sit-marketing-img.bankneo.co.id/news/img/tT60txwVp6Bn6SXQO0bbUn8RTBPH9jtUxeQtwbg-QwA.gif"
+			}
+		}
+	],
+	"canvasConfig": { "backgroundColor": "rgba(255, 212, 0, 1)" }
+}
